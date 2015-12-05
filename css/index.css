@@ -1,0 +1,41 @@
+/*Styling for the header*/
+.navbar {
+  background-color: #070A0F;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Kaushan Script', cursive;
+  color: #618B03;
+  font-size: 30px;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #618B03;
+}
+
+.navbar-default .navbar-brand:focus {
+  color: #618B03;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #618B03;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #618B03;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: #618B03;
+}
