@@ -17,14 +17,13 @@
   color: #618B03;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+.collapse .navbar-collapse {
+  position: relative;
 }
 
-.navbar .navbar-collapse {
-  text-align: center;
+.navbar-nav {
+  position: absolute;
+  left: calc(50% - 274px/2);
 }
 
 .navbar-default .navbar-nav>li>a {
