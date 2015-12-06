@@ -1,4 +1,8 @@
 /*Styling for the header*/
+header {
+  display: inline-block;
+}
+
 .navbar {
   background-color: #070A0F;
 }
@@ -37,4 +41,9 @@
 
 .navbar-default .navbar-nav>li>a:focus {
   color: #618B03;
+}
+
+/* Styling for the main-img*/
+section.main-img {
+  margin-top: 25px;
 }
