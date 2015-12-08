@@ -5,14 +5,12 @@ $(document).ready(function () {
     for (var i = 0; i < string.length; i++) {
       (function type(i) {
         setTimeout(function () {
-          console.log(string[i]+" ");
-          var time = new Date();
-          console.log(time);
+          // $("#img-txt").text(string[i]+" ");
+          console.log(string[i] + " ");
         }, i * 200);
       })(i);
     }
   }
 
   write(imgString);
-
 })
