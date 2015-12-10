@@ -59,7 +59,6 @@ section h1 {
   max-width: 30%;
   border-radius: 5px;
   padding: 5px;
-  /*background-color: white;*/
   min-height: 100px;
   min-width: 100px;
   border: solid #618B03 5px;
@@ -95,4 +94,16 @@ section.about-me-intro {
   padding-top: 3%;
   font-family: "Helvetica Neue", Helvetica;
   font-weight: bold;
+}
+
+/* Styling for portfolio section*/
+.portfolio {
+  background: #070A0F;
+  color:white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.portfolio img {
+  margin-top: 3%;
 }
