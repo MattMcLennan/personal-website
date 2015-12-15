@@ -113,3 +113,9 @@ h3 {
   width: 33%;
   height: 100%;
 }
+
+#folio {
+  height: 80%;
+  width: 80%;
+  float: right;
+}

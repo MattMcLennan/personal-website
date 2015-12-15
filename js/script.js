@@ -6,10 +6,8 @@ $(document).ready(function () {
     if (('#folio').length > 0) {
       $('#folio').remove();
     }
-
     $img = $(this).attr('src');
     $('.portfolio-large').append("<img id='folio' src='"+$img+"'>");
-    debugger
   });
 
 })
