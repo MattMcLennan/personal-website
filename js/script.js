@@ -3,11 +3,9 @@ $(document).ready(function () {
   write(imgString);
 
   $('td img').mouseover(function() {
-    if (('#folio').length > 0) {
-      $('#folio').remove();
-    }
+    $('.portfolio-large img').css("display","block");
     $img = $(this).attr('src');
-    $('.portfolio-large').append("<img id='folio' src='"+$img+"'>");
+    $('.portfolio-large img').attr("src",$img);
   });
 
 })

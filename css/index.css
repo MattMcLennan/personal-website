@@ -114,7 +114,9 @@ h3 {
   height: 100%;
 }
 
-#folio {
+.portfolio-large img {
+  display: none;
+  background: #070A0F;
   height: 80%;
   width: 80%;
   float: right;
