@@ -1,8 +1,8 @@
 $(document).ready(function () {
-  var imgString = "Hi, my name is Matthew McLennan and I make web applications work beautifully!";
+  var imgString = "and I make web applications work beautifully!";
 
   function write(string) {
-    var result = "";
+    var result = "Hi, my name is Matthew McLennan ";
     for (var i = 0; i < string.length; i++) {
       (function type(i) {
         setTimeout(function () {
@@ -14,4 +14,9 @@ $(document).ready(function () {
   }
 
   write(imgString);
+
+  $('td img').mouseover(function() {
+    debugger
+  });
+
 })
