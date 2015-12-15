@@ -102,6 +102,7 @@ h3 {
   color: white;
   padding-left: 10%;
   padding-right: 10%;
+  overflow: hidden;
 }
 
 .table {
@@ -116,7 +117,6 @@ h3 {
 
 .portfolio-large img {
   display: none;
-  background: #070A0F;
   height: 80%;
   width: 80%;
   float: right;
