@@ -121,3 +121,20 @@ h3 {
   width: 80%;
   float: right;
 }
+
+/* Portfolio left section styling*/
+.description {
+  display: none
+}
+
+.stack {
+  display: none
+}
+
+.github-link {
+  display: none
+}
+
+.web-link {
+  display: none
+}
