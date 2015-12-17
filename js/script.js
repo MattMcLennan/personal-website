@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var imgString = "and I make web applications work beautifully!";
+  var imgString = "and I make elegant web applications!";
   write(imgString);
 
   $('td img').mouseover(function() {
