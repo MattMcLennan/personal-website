@@ -13,7 +13,7 @@ $(document).ready(function () {
 // This function writes the cool text on the main image
 // seem like someone is typing it live 
 function write(string) {
-  var result = "Hi, my name is Matthew McLennan ";
+  var result = "Hi, I am Matthew McLennan ";
   for (var i = 0; i < string.length; i++) {
     (function type(i) {
       setTimeout(function () {
