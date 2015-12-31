@@ -150,3 +150,8 @@ h3 {
   vertical-align: middle;
 }
 
+.github {
+  position: relative;
+  left: 20%;
+}
+
