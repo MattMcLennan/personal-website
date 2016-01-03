@@ -1,4 +1,3 @@
-/*Styling for the header*/
 header {
   display: inline-block; }
 
@@ -42,19 +41,29 @@ header {
 .navbar-default .navbar-nav > li > a:focus {
   color: #285BA6; }
 
-/* main flag img styling */
-img {
+.intro img {
   max-width: 100%;
-  height: auto;
-  margin-top: -25px;
   position: relative; }
 
-section h1 {
+.intro h1 {
   color: #72A404;
   position: absolute;
   top: 20%;
   left: 10%;
   font-weight: bold;
   font-size: 6vw;
-  max-width: 53%;
+  max-width: 65%;
   font-family: Myriad Pro; }
+
+section.portfolio {
+  background-color: #285BA6;
+  padding: 5%;
+  height: 600px;
+  position: relative; }
+
+.portfolio h2 {
+  font-size: 24px;
+  color: #72A404;
+  font-family: Myriad Pro;
+  position: absolute;
+  left: 50%; }
