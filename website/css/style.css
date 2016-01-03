@@ -41,3 +41,20 @@ header {
 
 .navbar-default .navbar-nav > li > a:focus {
   color: #285BA6; }
+
+/* main flag img styling */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -25px;
+  position: relative; }
+
+section h1 {
+  color: #72A404;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-weight: bold;
+  font-size: 6vw;
+  max-width: 53%;
+  font-family: Myriad Pro; }
