@@ -74,28 +74,57 @@ header {
 section.portfolio {
   background-color: #285BA6;
   padding: 2% 5% 0% 5%;
-  height: 600px;
   position: relative;
 }
 
 .portfolio h2 {
   font-size: 24px;
   color: #72A404;
-  font-family : Myriad Pro;
-  position: absolute;
+  font-family: Myriad Pro;
+  position: relative;
   left: 48.5%;
 }
 
 .small-images {
-  position: relative;
-  top: 15%;
+  margin-top: 3%;
 }
 
 .small-images img {
-  width: 29%;
+  width: 29.79%;
 }
 
 .small-images img:nth-child(2) {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+.segment-break {
+  height: 5px;
+  background-color: white;
+  margin-top: 3%;
+}
+
+.detail {
+  margin-top: 3%;
+} 
+
+h3 {
+  font-size: 21px;
+  color: #070A0F;
+  font-family: Myriad Pro;
+  left: 50%;
+  position: relative;
+}
+
+.detail img {
+  width: 100%;
+  margin: 3% 0%;
+}
+
+
+
+
+
+
+
+
