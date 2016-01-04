@@ -60,12 +60,13 @@ section.portfolio {
   padding: 2% 5% 0% 5%;
   position: relative; }
 
-.portfolio h2 {
+.portfolio h2, .about h2 {
   font-size: 24px;
   color: #72A404;
   font-family: Myriad Pro;
   position: relative;
-  left: 48.5%; }
+  left: 48.5%;
+  display: inline-table; }
 
 .small-images {
   margin-top: 3%; }
@@ -90,7 +91,8 @@ h3 {
   color: #070A0F;
   font-family: Myriad Pro;
   left: 50%;
-  position: relative; }
+  position: relative;
+  display: inline-table; }
 
 .info {
   background-color: white;
@@ -123,3 +125,21 @@ h3 {
 
 .foodmap, .stocks {
   display: none; }
+
+.about {
+  width: 90%;
+  margin: 3% 5%;
+  position: relative; }
+
+.about img {
+  position: absolute;
+  max-width: 50%;
+  left: 28%;
+  top: 2%; }
+
+.bio {
+  font-family: Myriad Pro;
+  font-size: 14px;
+  width: 50%;
+  margin-left: 28%;
+  margin-top: 22.5%; }
