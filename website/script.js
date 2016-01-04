@@ -2,7 +2,7 @@ $(document).ready(function () {
   var imgString = "and I make elegant web applications!";
   write(imgString);
 
-  $('td img').mouseover(function() {
+  $('.small-images img').mouseover(function() {
     $('.portfolio-large img').css("display","block");
     $img = $(this).attr('src');
     $('.portfolio-large img').attr("src",$img);

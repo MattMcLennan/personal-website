@@ -116,11 +116,44 @@ h3 {
   position: relative;
 }
 
+.info {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1% 4%;
+  border: 3px solid #72A404;
+  margin-top: 2%;
+}
+
 .detail img {
   width: 100%;
   margin: 3% 0%;
 }
 
+.info tr td {
+  font-family: Myriad Pro;
+  font-size: 14px;
+}
+
+.info tr td:first-child {
+  font-weight: bold;
+}
+
+.table td { 
+     border-top: none !important; 
+ }
+
+.btn {
+  position: relative;
+  left: 46.5%;
+  font-color: #1A1A1A;
+  font-weight: bold;
+  background-color: #72A404;
+  top: -10px;
+}
+
+.foodmap, .stocks {
+  display: none;
+}
 
 
 
