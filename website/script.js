@@ -3,9 +3,9 @@ $(document).ready(function () {
   write(imgString);
 
   $('.small-images img').mouseover(function() {
-    $('.portfolio-large img').css("display","block");
-    $img = $(this).attr('src');
-    $('.portfolio-large img').attr("src",$img);
+    $('.core, .foodmap, .stocks').css("display","none");
+    var selectedImage = $(this).attr("alt");
+    $("."+selectedImage).css("display","block");
   });
 })
 
