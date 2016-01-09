@@ -134,6 +134,7 @@ h3 {
 .about img {
   position: absolute;
   max-width: 50%;
+  height: 200px;
   left: 28%;
   top: 2%; }
 
@@ -146,6 +147,14 @@ h3 {
 
 footer {
   display: inline-block;
-  min-height: 65px;
+  height: 65px;
   background-color: #1A1A1A;
   width: 100%; }
+
+footer .links {
+  margin-left: 5%;
+  line-height: 65px; }
+
+footer img {
+  max-width: 30px;
+  margin-right: 50px; }
