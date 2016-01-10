@@ -1,5 +1,9 @@
-header {
-  display: inline-block; }
+.navbar-nav {
+  width: 100%;
+  text-align: center; }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; }
 
 .navbar {
   background-color: #1A1A1A;
@@ -20,13 +24,6 @@ header {
 
 .navbar-default .navbar-brand:focus {
   color: #285BA6; }
-
-.collapse .navbar-collapse {
-  position: relative; }
-
-.navbar-nav {
-  position: absolute;
-  left: calc(50% - 274px/2 - 5vw); }
 
 .navbar-default .navbar-nav > li > a {
   color: #285BA6;
