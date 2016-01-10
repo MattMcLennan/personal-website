@@ -131,18 +131,18 @@ h3 {
   margin: 3% 5%;
   position: relative; }
 
-.about img {
+.about object {
   position: absolute;
-  max-width: 30%;
-  left: 28%;
-  top: 2%; }
+  max-width: 20%;
+  left: 43%;
+  top: 15%; }
 
 .bio {
   font-family: Myriad Pro;
   font-size: 14px;
   width: 50%;
   margin-left: 28%;
-  margin-top: 22.5%; }
+  margin-top: 23%; }
 
 footer {
   display: inline-block;
