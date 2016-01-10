@@ -54,9 +54,11 @@ header {
 }
 
 // main flag img styling
-.intro img {
-  max-width: 100%;
+.intro {
   position: relative;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .intro h1 {

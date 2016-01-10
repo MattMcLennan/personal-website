@@ -41,9 +41,11 @@ header {
 .navbar-default .navbar-nav > li > a:focus {
   color: #285BA6; }
 
-.intro img {
-  max-width: 100%;
-  position: relative; }
+.intro {
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-size: cover; }
 
 .intro h1 {
   color: #72A404;
