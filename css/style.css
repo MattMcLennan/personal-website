@@ -55,9 +55,11 @@
   font-weight: bold;
   font-size: 6vw;
   max-width: 65%;
-  font-family: Myriad Pro; }
+  font-family: Myriad Pro;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.6); }
 
 section.portfolio {
+  text-align: center;
   background-color: #285BA6;
   padding: 2% 5% 0% 5%;
   position: relative; }
@@ -66,8 +68,7 @@ section.portfolio {
   font-size: 24px;
   color: #72A404;
   font-family: Myriad Pro;
-  position: relative;
-  left: 48.5%;
+  margin: auto;
   display: inline-table; }
 
 .small-images {
@@ -92,8 +93,7 @@ h3 {
   font-size: 21px;
   color: #070A0F;
   font-family: Myriad Pro;
-  left: 50%;
-  position: relative;
+  margin: auto;
   display: inline-table; }
 
 .info {
@@ -115,11 +115,11 @@ h3 {
   font-weight: bold; }
 
 .table td {
-  border-top: none !important; }
+  border-top: none !important;
+  text-align: left; }
 
 .btn {
-  position: relative;
-  left: 46.5%;
+  margin: auto;
   font-color: #1A1A1A;
   font-weight: bold;
   background-color: #72A404;
@@ -131,20 +131,22 @@ h3 {
 .about {
   width: 90%;
   margin: 3% 5%;
-  position: relative; }
+  position: relative;
+  text-align: center; }
 
 .about object {
-  position: absolute;
-  max-width: 20%;
-  left: 43%;
-  top: 15%; }
+  padding: 30px 0px 10px 0px;
+  margin-top: 10px;
+  display: block;
+  margin: auto;
+  max-width: 20%; }
 
 .bio {
   font-family: Myriad Pro;
   font-size: 14px;
   width: 50%;
-  margin-left: 28%;
-  margin-top: 23%; }
+  display: block;
+  margin: auto; }
 
 footer {
   display: inline-block;
