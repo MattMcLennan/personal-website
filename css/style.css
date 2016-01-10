@@ -32,6 +32,9 @@
   margin-right: 5vw;
   line-height: calc(65px / 2); }
 
+#about {
+  margin-right: 0; }
+
 .navbar-default .navbar-nav > li > a:hover {
   color: #285BA6; }
 
