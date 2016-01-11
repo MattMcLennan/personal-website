@@ -32,7 +32,7 @@
   margin-right: 5vw;
   line-height: calc(65px / 2); }
 
-#about {
+#about-me {
   margin-right: 0; }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -58,6 +58,12 @@
   max-width: 65%;
   font-family: Myriad Pro;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.6); }
+
+a.portfolio {
+  display: block;
+  position: relative;
+  top: -5%;
+  visibility: hidden; }
 
 section.portfolio {
   text-align: center;
