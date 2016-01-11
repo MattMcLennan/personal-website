@@ -94,7 +94,13 @@ section.portfolio {
 }
 
 .small-images img {
-  width: 29.79%;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .small-images img {
+    margin-top: 20px;
+  }
 }
 
 .small-images img:nth-child(2) {
@@ -153,6 +159,13 @@ h3 {
   font-weight: bold;
   background-color: #72A404;
   top: -10px;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, 
+.btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, 
+.open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, 
+.open>.dropdown-toggle.btn-default:hover, .btn:hover, .btn:focus {
+  background-color: #72A404;
 }
 
 .foodmap, .stocks {
