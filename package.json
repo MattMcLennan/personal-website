@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node main.html"
+    "start": "main.html"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
