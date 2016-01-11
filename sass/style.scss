@@ -18,7 +18,7 @@
 }
 
 .navbar-default .navbar-brand {
-  font-size: 24px;
+  font-size: 2.2vmin;
   font-family : Superclarendon;
   font-weight : bold;
   color : #285BA6;
@@ -35,7 +35,7 @@
 
 .navbar-default .navbar-nav>li>a {
   color: #285BA6;
-  font-size: 24px;
+  font-size: 3vmin;
   font-family: Myriad Pro;
   margin-right: 5vw;
   line-height: calc(65px / 2);
@@ -83,7 +83,7 @@ section.portfolio {
 }
 
 .portfolio h2, .about h2 {
-  font-size: 24px;
+  font-size: 4vmin;
   color: #72A404;
   font-family: Myriad Pro;
   margin: auto;
@@ -120,7 +120,7 @@ section.portfolio {
 } 
 
 h3 {
-  font-size: 21px;
+  font-size: 3vmin;
   color: #070A0F;
   font-family: Myriad Pro;
   margin: auto;
@@ -142,7 +142,7 @@ h3 {
 
 .info tr td {
   font-family: Myriad Pro;
-  font-size: 14px;
+  font-size: 2vmin;
 }
 
 .info tr td:first-child {
@@ -160,6 +160,7 @@ h3 {
   font-weight: bold;
   background-color: #72A404;
   top: -10px;
+  font-size: 2vmin;
 }
 
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, 
@@ -191,7 +192,7 @@ h3 {
 
 .bio {
   font-family: Myriad Pro;
-  font-size: 14px;
+  font-size: 2vmin;
   width: 50%;
   display: block;
   margin: auto;
