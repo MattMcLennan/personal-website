@@ -1,0 +1,192 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .navbar-nav {
+   width: 100%;
+   text-align: center; }
+   .navbar-nav > li {
+     float: none;
+     display: inline-block; }
+
+ .navbar {
+   background-color: #1A1A1A;
+   min-height: 65px; }
+
+ .navbar-default a {
+   line-height: calc(65px / 2); }
+
+ .navbar-default .navbar-brand {
+   font-size: 2.2vmin;
+   font-family: Superclarendon;
+   font-weight: bold;
+   color: #285BA6;
+   line-height: calc(65px / 2); }
+
+ .navbar-default .navbar-brand:hover {
+   color: #285BA6; }
+
+ .navbar-default .navbar-brand:focus {
+   color: #285BA6; }
+
+ .navbar-default .navbar-nav > li > a {
+   color: #285BA6;
+   font-size: 3vmin;
+   font-family: Myriad Pro;
+   margin-right: 5vw;
+   line-height: calc(65px / 2); }
+
+ #about-me {
+   margin-right: 0; }
+
+ .navbar-default .navbar-nav > li > a:hover {
+   color: #285BA6; }
+
+ .navbar-default .navbar-nav > li > a:focus {
+   color: #285BA6; }
+
+ .intro {
+   position: relative;
+   height: 100vh;
+   background-position: center;
+   background-size: cover; }
+
+ .intro h1 {
+   color: #72A404;
+   position: absolute;
+   top: 25%;
+   left: 10%;
+   font-weight: bold;
+   font-size: 10vmin;
+   line-height: 12vmin;
+   max-width: 65%;
+   font-family: Myriad Pro;
+   text-shadow: 0 0 1px rgba(0, 0, 0, 0.6); }
+
+ section.portfolio {
+   text-align: center;
+   background-color: #285BA6;
+   padding: 2% 5% 0% 5%;
+   position: relative; }
+
+ .portfolio h2, .about h2 {
+   font-size: 4vmin;
+   color: #72A404;
+   font-family: Myriad Pro;
+   margin: auto;
+   display: inline-table; }
+
+ .small-images {
+   margin-top: 3%; }
+
+ .small-images img {
+   width: 100%; }
+
+ @media screen and (max-width: 767px) {
+   .small-images img {
+     margin-top: 20px; } }
+
+ .small-images img:nth-child(2) {
+   margin-left: 5%;
+   margin-right: 5%; }
+
+ .segment-break {
+   height: 5px;
+   background-color: white;
+   margin-top: 3%; }
+
+ .detail {
+   margin-top: 3%; }
+
+ h3 {
+   font-size: 3vmin;
+   color: #070A0F;
+   font-family: Myriad Pro;
+   margin: auto;
+   display: inline-table; }
+
+ .info {
+   background-color: white;
+   border-radius: 5px;
+   padding: 1% 4%;
+   border: 3px solid #72A404;
+   margin-top: 2%; }
+
+ .detail img {
+   width: 100%;
+   margin: 3% 0%; }
+
+ .info tr td {
+   font-family: Myriad Pro;
+   font-size: 2vmin; }
+
+ .info tr td:first-child {
+   font-weight: bold; }
+
+ .table td {
+   border-top: none !important;
+   text-align: left; }
+
+ .btn {
+   margin: auto;
+   font-color: #1A1A1A;
+   font-weight: bold;
+   background-color: #72A404;
+   top: -10px;
+   font-size: 2vmin; }
+
+ .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover,
+ .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover,
+ .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus,
+ .open > .dropdown-toggle.btn-default:hover, .btn:hover, .btn:focus {
+   background-color: #72A404; }
+
+ .foodmap, .stocks {
+   display: none; }
+
+ .about {
+   width: 90%;
+   margin: 3% 5%;
+   position: relative;
+   text-align: center; }
+
+ .about object {
+   padding: 30px 0px 10px 0px;
+   margin-top: 10px;
+   display: block;
+   margin: auto;
+   max-width: 20%; }
+
+ .bio {
+   font-family: Myriad Pro;
+   font-size: 2vmin;
+   width: 50%;
+   display: block;
+   margin: auto; }
+
+ footer {
+   display: inline-block;
+   height: 65px;
+   background-color: #1A1A1A;
+   width: 100%; }
+
+ footer .links {
+   margin-left: 5%;
+   line-height: 65px; }
+
+ footer img {
+   max-width: 30px;
+   margin-right: 50px;
+   vertical-align: center; }
