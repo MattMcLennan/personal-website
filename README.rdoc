@@ -1,3 +1,5 @@
-My Personal Website 
+<h1>My Personal Website<h1>
 
-Feel free to contact me at mclennan6891@gmail.com
+<h2>See live: <a href="http://matthewmclennan.herokuapp.com/"><span style="font-size:16px">http://matthewmclennan.herokuapp.com/</span></a></h2>
+
+<h4 style="color:blue">Feel free to contact me at <a href="mailto:mclennan6891@gmail.com">mclennan6891@gmail.com</a></h4>
