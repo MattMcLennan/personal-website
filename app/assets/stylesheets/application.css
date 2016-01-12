@@ -78,7 +78,7 @@
  section.portfolio {
    text-align: center;
    background-color: #285BA6;
-   padding: 2% 5% 0% 5%;
+   padding: 2% 5% 3% 5%;
    position: relative; }
 
  .portfolio h2, .about h2 {
@@ -94,9 +94,8 @@
  .small-images img {
    width: 100%; }
 
- @media screen and (max-width: 767px) {
-   .small-images img {
-     margin-top: 20px; } }
+ .info-1, .info-2, .info-3 {
+   display: none; }
 
  .small-images img:nth-child(2) {
    margin-left: 5%;
@@ -108,29 +107,36 @@
    margin-top: 3%; }
 
  .detail {
-   margin-top: 3%; }
+   margin-top: 3%;
+   padding-bottom: 3%; 
+}
 
  h3 {
    font-size: 3vmin;
    color: #070A0F;
    font-family: Myriad Pro;
-   margin: auto;
-   display: inline-table; }
+   margin: auto; }
 
  .info {
    background-color: white;
+   width: 28%;
+   margin-right: 2%;
    border-radius: 5px;
-   padding: 1% 4%;
+   padding: 1% 0%;
    border: 3px solid #72A404;
-   margin-top: 2%; }
+   margin-top: 50px; 
+   display: inline-block;
+   float: left;
+}
 
  .detail img {
-   width: 100%;
-   margin: 3% 0%; }
+   width: 70%;
+   margin-top: 50px;
+}
 
  .info tr td {
    font-family: Myriad Pro;
-   font-size: 2vmin; }
+   font-size: 1.8vmin; }
 
  .info tr td:first-child {
    font-weight: bold; }
@@ -190,3 +196,32 @@
    max-width: 30px;
    margin-right: 50px;
    vertical-align: center; }
+
+ @media only screen and (max-width: 1285px) {
+   .info {
+      width: 100%;
+   }
+   .detail img {
+      width: 100%;
+   }
+ }
+
+ @media only screen and (max-width: 767px) {
+   .detail, .segment-break {
+      display: none;
+   }
+   .small-images img {
+     margin-top: 20px; }
+   .portfolio {
+      padding-bottom: 3%;
+   }
+   .info-1, .info-2, .info-3 {
+      display: inline-block;
+      border-radius: 5px;
+      padding: 1% 0%;
+      border: 3px solid #72A404;
+      background-color: white;
+      margin-top: 1%;
+      margin-bottom: 2%;
+   }
+ }
