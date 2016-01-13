@@ -15,7 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function () {
+$(window).on("load",function () {
   var imgString = "and I make elegant web applications!";
   write(imgString);
 
