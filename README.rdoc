@@ -1,4 +1,4 @@
-<h1>My Personal Website<h1>
+<h1>My Personal Website</h1>
 
 <h2>See live: <a href="http://matthewmclennan.herokuapp.com/"><span style="font-size:16px">http://matthewmclennan.herokuapp.com/</span></a></h2>
 
