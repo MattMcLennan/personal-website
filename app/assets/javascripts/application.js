@@ -16,7 +16,7 @@
 //= require_tree .
 
 $(window).on("load",function () {
-  var imgString = "and I make elegant web applications!";
+  var imgString = "Hi, I am Matthew McLennan and I make elegant web applications!";
   write(imgString);
 
   $('.small-images img').mouseover(function() {
@@ -29,13 +29,13 @@ $(window).on("load",function () {
 // This function writes the text on the main image
 // seem like someone is typing it live 
 function write(string) {
-  var result = "Hi, I am Matthew McLennan ";
+  var result = "";
   for (var i = 0; i < string.length; i++) {
     (function type(i) {
       setTimeout(function () {
         result += string[i];
         $("#img-txt").text(result);
-      }, i * 125);
+      }, i * 105);
     })(i);
   }
 } 
