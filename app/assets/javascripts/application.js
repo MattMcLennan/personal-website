@@ -38,4 +38,4 @@ function write(string) {
       }, i * 125);
     })(i);
   }
-}
+} 
