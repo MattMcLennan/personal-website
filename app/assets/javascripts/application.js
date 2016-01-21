@@ -16,8 +16,10 @@
 //= require_tree .
 
 $(window).on("load",function () {
-  var imgString = "Hi, I am Matthew McLennan and I make elegant web applications!";
-  write(imgString);
+  $(".element").typed({
+    strings: ["Hi, I am Matthew McLennan and I make elegant web applications!"],
+    typeSpeed: 0
+  });
 
   $('.small-images img').mouseover(function() {
     $('.core, .foodmap, .stocks').css("display","none");
@@ -25,17 +27,3 @@ $(window).on("load",function () {
     $("."+selectedImage).css("display","block");
   });
 })
-
-// This function writes the text on the main image
-// seem like someone is typing it live 
-function write(string) {
-  var result = "";
-  for (var i = 0; i < string.length; i++) {
-    (function type(i) {
-      setTimeout(function () {
-        result += string[i];
-        $("#img-txt").text(result);
-      }, i * 105);
-    })(i);
-  }
-} 
