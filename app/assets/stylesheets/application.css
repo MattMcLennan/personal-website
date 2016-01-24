@@ -22,12 +22,13 @@
      display: inline-block; }
 
  .navbar {
-   background-color: #1A1A1A;
+   background-color: transparent;
  }
 
  nav.navbar.navbar-default.navbar-fixed-top {
    padding-top: 10px;
    padding-bottom: 10px;
+   border-bottom: none;
  }
 
  .navbar-default .navbar-brand:hover {
@@ -54,25 +55,36 @@
 
 /* IMAGE SECTION STARTS HERE*/
 
- .intro {
+ .main-img {
    position: relative;
    height: 100vh;
-   background-position: center;
+   text-align: center;
+   background-attachment: fixed;
+   background-color: transparent;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(/coding.jpg);
    background-size: cover; 
    border-bottom: solid 10px white;
+   -webkit-filter: blur(5px);
+   border: 5px solid #72A404;
 }
 
  .intro h1 {
-   color: #72A404;
    position: absolute;
-   top: 25%;
-   left: 10%;
+   left: 20%;
+   top: 40%;
+   color: #fff;
+   text-align: center;
    font-weight: bold;
-   font-size: 10vmin;
-   line-height: 12vmin;
+   font-size: 6rem;
    max-width: 65%;
-   font-family: Myriad Pro;
+   vertical-align: middle;
+   font-family: sans-serif;
    text-shadow: 0 0 1px rgba(0, 0, 0, 0.6); }
+
+
+/* PORTFOLIO SECTION STARTS HERE*/
 
  section.portfolio {
    text-align: center;
@@ -83,7 +95,7 @@
  .portfolio h2, .about h2 {
    font-size: 4vmin;
    color: #72A404;
-   font-family: Myriad Pro;
+   font-family: sans-serif;
    margin: auto;
    display: inline-table; }
 
@@ -113,7 +125,7 @@
  h3 {
    font-size: 3vmin;
    color: #070A0F;
-   font-family: Myriad Pro;
+   font-family: sans-serif;
    margin: auto; }
 
  .info {
@@ -134,7 +146,7 @@
 }
 
  .info tr td {
-   font-family: Myriad Pro;
+   font-family: sans-serif;
    font-size: 1.8vmin; }
 
  .info tr td:first-child {
@@ -175,7 +187,7 @@
    max-width: 20%; }
 
  .bio {
-   font-family: Myriad Pro;
+   font-family: sans-serif;
    font-size: 2vmin;
    width: 50%;
    display: block;
