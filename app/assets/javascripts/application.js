@@ -17,13 +17,7 @@
 
 $(window).on("load",function () {
   $(".element").typed({
-    strings: ["Hi, I am Matthew McLennan and I make elegant web applications!"],
+    strings: ["Hi, I am Matthew McLennan and I make web applications!"],
     typeSpeed: 0
-  });
-
-  $('.small-images img').mouseover(function() {
-    $('.core, .foodmap, .stocks').css("display","none");
-    var selectedImage = $(this).attr("alt");
-    $("."+selectedImage).css("display","block");
   });
 })
