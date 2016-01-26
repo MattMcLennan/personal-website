@@ -200,22 +200,13 @@
    }
  }
 
- @media only screen and (max-width: 767px) {
-   .detail, .segment-break {
-      display: none;
-   }
+ @media only screen and (max-width: 850px) {
    .small-images img {
      margin-top: 20px; }
    .portfolio {
       padding-bottom: 3%;
    }
-   .info-1, .info-2, .info-3 {
-      display: inline-block;
-      border-radius: 5px;
-      padding: 1% 0%;
-      border: 3px solid #72A404;
-      background-color: white;
-      margin-top: 1%;
-      margin-bottom: 2%;
+   .portfolio img {
+      display: block;
    }
  }
