@@ -22,13 +22,14 @@
      display: inline-block; }
 
  .navbar {
-   background-color: transparent;
+   background-image: linear-gradient(#000, #000);
+   opacity: 0.8;
+   min-height: 65px;
  }
 
  nav.navbar.navbar-default.navbar-fixed-top {
    padding-top: 10px;
    padding-bottom: 10px;
-   border-bottom: none;
  }
 
  .navbar-default .navbar-brand:hover {
@@ -40,7 +41,7 @@
  .navbar-default .navbar-nav > li > a {
    color: #285BA6;
    font-size: 4rem;
-   font-family: sans-serif;
+   font-family: "Roboto Slab",serif;
    margin-right: 5vw;
  }
 
@@ -76,7 +77,6 @@
    background-position: center center;
    background-image: url(/coding.jpg);
    background-size: cover; 
-   border-bottom: solid 10px white;
 }
 
  .intro h1 {
@@ -89,7 +89,7 @@
    font-size: 6rem;
    max-width: 65%;
    vertical-align: middle;
-   font-family: sans-serif;
+   font-family: "Roboto Slab",serif;
    text-shadow: 0 0 1px rgba(0, 0, 0, 0.6); }
 
 
@@ -105,24 +105,36 @@
 
  section.portfolio, section.about {
    text-align: center;
-   margin-top: 100px;
-   padding: 5% 15% 0% 15%;
+   padding: 0% 15% 0% 15%;
+   padding-top: 150px;
    position: relative; }
 
  .portfolio h2, .about h2 {
    font-size: 4rem;
    color: #72A404;
-   font-family: sans-serif;
+   font-family: "Roboto Slab",serif;
    margin: auto;
    display: inline-table; 
    margin-bottom: 30px;
  }
 
+ .vcenter {
+   vertical-align: middle;
+   display: inline-block;
+   float: none;
+ }
+
  .small-images {
-   margin-top: 100px; }
+   margin-top: 100px; 
+   margin-bottom: 50px;
+ }
 
  .small-images img {
    width: 100%; 
+ }
+
+ small {
+   color: #285BA6;
  }
 
  .break {
@@ -157,7 +169,7 @@
    max-width: 20%; }
 
  .bio {
-   font-family: sans-serif;
+   font-family: "Roboto Slab",serif;
    font-size: 2rem;
    width: 50%;
    display: block;
